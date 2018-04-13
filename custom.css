@@ -34,3 +34,6 @@ img {
 .balloon-4 {
     float:right;
 }
+.navbar navbar-default {
+    position:fixed;
+}
