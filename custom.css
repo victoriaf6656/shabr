@@ -11,14 +11,26 @@
 h1 {
     font-family:Pristine;
 }
-img {
+/*img {
     width:100%;
     height:100%;
     display:table;
-}
+}*/
 #info {
     margin:10px 0px;
 
     
     margin:10px 10px;
+}
+img {
+    display:inline-block;
+    margin:10px 10px;
+}
+.balloon-3 {
+    float:right;
+    display:inline-block;
+    margin:10px 10px;
+}
+.balloon-4 {
+    float:right;
 }
