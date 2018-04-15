@@ -16,11 +16,19 @@ h1 {
     height:100%;
     display:table;
 }*/
-#info {
-    margin:10px 0px;
-
-    
+#whole {
+    background-color:lavender;
+}
+#home {
     margin:10px 10px;
+    font-family:Helvetica;
+    background-color:#ADD8E6;
+}
+#info {
+    margin:10px 10px;
+}
+#testimonials {
+    background-color:lightblue;
 }
 img {
     display:inline-block;
