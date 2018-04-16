@@ -22,7 +22,7 @@ h1 {
 #home {
     margin:10px 10px;
     font-family:Helvetica;
-    background-color:#ADD8E6;
+    background-color:lightblue;
 }
 #info {
     margin:10px 10px;
@@ -30,20 +30,26 @@ h1 {
 #testimonials {
     background-color:lightblue;
 }
-img {
+#gallery {
+    background-color:#009688;
+}
+#balloon-2 {
     display:inline-block;
     margin:10px 10px;
+    
 }
-.balloon-3 {
+#balloon-3 {
+    float:right;
+    display:inline-block;
+    margin:10px 10px;
+    
+}
+#balloon-4 {
     float:right;
     display:inline-block;
     margin:10px 10px;
 }
-.balloon-4 {
-    float:right;
-    display:inline-block;
-    margin:10px 10px;
-}
-.navbar navbar-default {
-    position:fixed;
+.navbar  {
+    position:relative;
+    border-color: red;
 }
