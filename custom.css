@@ -1,26 +1,28 @@
 h1 {
     font-family:Pristine;
 }
-
 #whole {
     background-color:lavender;
-    margin-top:0px;
 }
 #home {
     margin:10px 10px;
+    padding-top:50px;
     font-family:Helvetica;
     background-color:lightblue;
 }
 #info {
     margin:10px 10px;
+    padding-top:50px;
     background-color: rgb(128, 170, 255);
 }
 #testimonials {
     margin:10px 10px;
+    padding-top:50px;
     background-color:lightblue;
 }
 #gallery {
     margin:10px 10px;
+    padding-top:50px;
     background-color:#009688;
 }
 img {
@@ -37,7 +39,8 @@ img {
     rgba(0, 0, 0, 0.1)),
     url("img/balloon-1.jpg") no-repeat center;
     background-size: cover;
-    margin-top:60px;
+    margin-top:10px;
+    padding-top:50px;
 }
 .text-vertical-center {
     text-align: center;
@@ -46,10 +49,14 @@ img {
     color: white;
     font-size: 80px;
 }
-/*small screen*/
+/*medium screen*/
 @media only screen and (max-width:600px) {
 }
 /*wide screen*/
 @media only screen and (min-width:900px) {
+    
+}
+/*small screen*/
+@media only screen and (min-width:400px) {
     
 }
