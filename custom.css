@@ -1,23 +1,10 @@
-/*#balloon {
-    display: table;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( 
-    rgba(0, 0, 0, 0.9),
-    rgba(0, 0, 0, 0.1)
-    )
-    background-size: cover;
-}*/
 h1 {
     font-family:Pristine;
 }
-/*img {
-    width:100%;
-    height:100%;
-    display:table;
-}*/
+
 #whole {
     background-color:lavender;
+    margin-top:0px;
 }
 #home {
     margin:10px 10px;
@@ -26,30 +13,43 @@ h1 {
 }
 #info {
     margin:10px 10px;
+    background-color: rgb(128, 170, 255);
 }
 #testimonials {
+    margin:10px 10px;
     background-color:lightblue;
 }
 #gallery {
+    margin:10px 10px;
     background-color:#009688;
 }
-#balloon-2 {
+img {
     display:inline-block;
     margin:10px 10px;
+    width:100%;
+    display:table;
+}
+#image {
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.1)),
+    url("img/balloon-1.jpg") no-repeat center;
+    background-size: cover;
+    margin-top:60px;
+}
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    font-size: 80px;
+}
+/*small screen*/
+@media only screen and (max-width:600px) {
+}
+/*wide screen*/
+@media only screen and (min-width:900px) {
     
-}
-#balloon-3 {
-    float:right;
-    display:inline-block;
-    margin:10px 10px;
-    
-}
-#balloon-4 {
-    float:right;
-    display:inline-block;
-    margin:10px 10px;
-}
-.navbar  {
-    position:relative;
-    border-color: red;
 }
