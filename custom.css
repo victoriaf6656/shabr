@@ -41,6 +41,7 @@ img {
     background-size: cover;
     margin-top:10px;
     padding-top:50px;
+    padding-bottom: 50px;
 }
 .text-vertical-center {
     text-align: center;
