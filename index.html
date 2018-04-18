@@ -19,26 +19,30 @@
     <link rel="stylesheet" href="nav.css">
     <script src="script.js"></script>
 </head>
+<!-- Main part of Scrollspy Plugin -->
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top"> <!-- Fixed to the top(Doesn't move) -->
         <div class="container-fluid">
-            <div class="navbar-header">
+            <div class="navbar-header"> <!-- Website's Name (No Name)-->
+                <!-- Button for each section -->
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>                        
                      </button>
             </div>
+            <!-- For scrolling to that section + Refer to each section -->
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#info" style="background-color: rgb(128, 170, 255); color:black">Info</a></li>
-                <li><a href="#gallery" style="background-color:#009688; color:white">Gallery</a></li>
+                <li><a href="#info" style="background-color: rgb(128, 170, 255); color:black">Info</a></li> <!-- Background Color: shade of blue -->
+                <li><a href="#gallery" style="background-color:#009688; color:white">Gallery</a></li> <!-- Background Color: Teal -->
                 <li><a href="#testimonials" style="background-color:lightblue; color:black">Testimonials</a></li>
                 <li><a href="#contact" style="background-color:grey; color:white">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <!-- Whole Page (Entire Website) -->
     <div id="whole">
         <div id="image">
             <div class="text-vertical-center">
@@ -46,6 +50,7 @@
                 <h2>Ride with the wind. Dance with the sky.</h2>
             </div>
         </div>
+        <!-- Section 1: Home -->
         <div id="home">
             <h2>Home:</h2>
             <h5>Fun for Everyone</h5>
@@ -53,7 +58,7 @@
             <p>Fun for both adults and kids. All are welcome!</p>
             <p>Afraid of heights? You won't be after you slow-dance with the sky.</p><br>
         </div>
-
+        <!-- Sectin 2: Info (Carousel) -->
         <div id="info" class="container-fluid">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
@@ -61,7 +66,9 @@
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#myCarousel" data-slide-to="1"></li>
                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol>
+                <!-- Separate each parts of info into each slide as items-->
                 <div class="carousel-inner">
                     <div class="item active">
                         <h1>Time</h1>
@@ -93,7 +100,7 @@
   </a>
             </div>
         </div>
-
+        <!-- Section 3: Gallery (grid) -->
         <div id='gallery' class="container-fluid">
             <h2 style="font-family:Helvetica;">Gallery</h2>
             <div id="balloon-2">
@@ -118,7 +125,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a href="img/balloon-4.jpg" class="img-responsive">
-        <img src="img/balloon-4.jpg" alt="flight">
+        <img src="img/balloon-4.jpg" alt="preparation">
       </a>
                     </div>
                 </div>
@@ -127,7 +134,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a href="img/balloon-5.jpg" class="img-responsive" >
-        <img src="img/balloon-5.jpg" alt="flight">
+        <img src="img/balloon-5.jpg" alt="flying in sky">
       </a>
                     </div>
                 </div>
@@ -136,12 +143,13 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a href="img/balloon-6.jpg" class="img-responsive">
-        <img src="img/balloon-6.jpg" alt="flight">
+        <img src="img/balloon-6.jpg" alt="fire2">
       </a>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Section 4: Testimonials (List Group) -->
         <div id="testimonials" class="container-fluid">
             <h2>Testimonials:</h2>
             <p>Just a few of our happy customers</p>
@@ -172,6 +180,7 @@
                 
             </ul>
         </div>
+        <!-- Section 5: Contact (Jumbotron) -->
         <div class="container">
             <div class="jumbotron">
                 <h3 id="contact">Contact: </h3><br>
@@ -183,6 +192,7 @@
                 <p>Phone(555) 555-1234 <span class='glyphicon glyphicon-phone-alt'></span></p>
             </div>
         </div>
+        <!-- Copyright (center end) -->
         <p style="text-align:center; font-weight:bold;">Copyright © 2016 | SHABR</p>
     </div>
 
